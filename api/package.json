@@ -7,8 +7,9 @@
     "@types/express": "^5.0.5",
     "@types/express-http-proxy": "^1.6.7",
     "@types/jsonwebtoken": "^9.0.10",
-    "@types/node": "^26.0.0",
-    "@types/ws": "^8.18.1"
+    "@types/node": "^26.1.1",
+    "@types/ws": "^8.18.1",
+    "ts-prune": "^0.10.3"
   },
   "dependencies": {
     "cors": "^2.8.6",
@@ -16,11 +17,11 @@
     "express": "^5.2.0",
     "express-http-proxy": "^2.1.2",
     "jsonwebtoken": "^9.0.3",
-    "node-cron": "^4.4.1",
+    "node-cron": "^4.6.0",
     "node-json-db": "^2.6.0",
     "openid-client": "^6.8.4",
-    "toml": "^4.1.1",
-    "ws": "^8.21.0"
+    "toml": "^5.0.0",
+    "ws": "^8.21.1"
   },
   "scripts": {
     "build": "npx tsc --project ./tsconfig.json",
